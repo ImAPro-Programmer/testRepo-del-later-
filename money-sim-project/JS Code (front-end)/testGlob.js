@@ -41,5 +41,4 @@ function sendUserBalToWorker(userBal) {
 }
 
 // Example usage with userBal
-const userBal = 10000; // Example balance
 sendUserBalToWorker(userBal);
