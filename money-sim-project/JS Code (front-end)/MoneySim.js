@@ -8,6 +8,10 @@ var increaseSavingsIdentifier = false;
 var writeSavingsAccount = document.getElementById("savingsDialong");
 var savingsBalance = 0;
 
+module.exports = {
+    userBal: userBal 
+};
+
 var randomEvents = [
     "NVIDIA Released a new GPU",
     "Tesla released a new car!",
