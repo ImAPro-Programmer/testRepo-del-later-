@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Your Page Title</title>
+        <link rel="stylesheet" href="MoneySim.css">
+    </head>
+    <body>
+        <div class="loginMenu">
+            <input id="userLogin" type="text" placeholder="Enter Username:">
+            <input id="userPass" type="text" placeholder="Enter Password:">
+            <button type="submit" id="loginButton">LOGIN</button>
+        </div>
+        <div class="mainContent">
+            <div class="container">
+                <h1 id="title">$ Money Simulator $</h1>
+                <p id="userBal"></p>
+                <button type="button" id="investButton">Invest</button>
+                <button type="button" id="newsButton">Check Current News</button>
+                <button type="button" id="bankDeposit">Deposit in Savings Account</button>
+            </div>
+
+            <div class="investMenu">
+                <button type="button" id="NVIDIA">NVIDIA</button>
+                <button type="button" id="Tesla">Tesla</button>
+                <button type="button" id="APPL">Apple</button>
+                <button type="button" class="back">BACK</button>
+            </div>
+            <div class="randomEvent">
+                <h1 id="currentNewsIdentifier">pls dont steal my code lol (and yes noah i made this)</h1>
+                <h2 id="nextCountdown">e</h2>
+                <button type="button" class="back">BACK</button>
+            </div>
+            <div class="savingAccountDialog">
+                <input  id="depositDialog" type="text" placeholder="Enter Deposit Amount:">
+                <button type="button" id="depositButton"> DEPOSIT</button>
+                <p id="savingsDialong">Savings Account Balance:</p>
+                <p id="savingsInfo">Amount increases every 10 minutes!</p>
+                <button type="button" id="withdrawButton"> WITHDRAW</button>
+                <button type="button" class="back">BACK</button>
+            </div>
+        </div>
+        <script src="JS Code (front-end)\MoneySim.js"></script>
+        <script src="JS Code (front-end)\login(front).js"></script>
+    </body>
+</html>
